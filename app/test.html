@@ -1,0 +1,23 @@
+<head>
+  <title>test</title>
+</head>
+
+<body>
+  <h1>Welcome!</h1>
+
+  {{> hello}}
+</body>
+
+<template name="hello">
+  {{#if lightState}}
+  <button id="lightButton">Turn OFF</button>
+  {{else}}
+  <button id="lightButton">Turn ON</button>
+  {{/if}}
+
+  <p>Current State of the button is   {{#if lightState}}
+  on
+  {{else}}
+  off
+  {{/if}}.</p>
+</template>
