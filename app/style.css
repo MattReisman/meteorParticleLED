@@ -6,8 +6,9 @@
 .device-form {
  /*margin: 20px;*/
  background-color: #eee;
- padding: 1px 20px 10px;
+ padding: 5px 0px 10px;
  border-radius: 10px;
+ margin: 10px;
 }
 
 .device-listing {
@@ -15,12 +16,30 @@
 }
 
 p.device-listing {
-  font-size: 12px;
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 20px;
+  border-radius: 0px 15px 15px 0px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #286090;
 }
+
+p.device-listing > span {
+  color: red;
+}
+
 
 .light-switch {
   margin: 20px;
   padding: 20px;
-  background-color: rgba(5, 5, 55, .1);
+  background-color: rgba(205, 5, 55, .1);
   text-align: center;
+  border-radius: 10px;
+}
+
+
+.device-edit {
+  margin: 0 20% 10px;
 }

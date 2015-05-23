@@ -38,7 +38,6 @@ if (Meteor.isClient) {
         "https://api.particle.io/v1/devices/" + device +
         "/toggleLight?access_token=" + token,
         function (err, data ){
-      // ("https://api.particle.io/v1/devices/53ff70066667574834302067/toggleLight?access_token=dcb98d8057f3a74e2234d4a44a80cbfbafb3d183", function (err, data ){
         console.log("HTTP POST response received");
         console.log(data);
         Session.set('lightState', data.data.result);
