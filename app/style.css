@@ -1,0 +1,26 @@
+/* CSS declarations go here */
+.main {
+  margin: 20px;
+  text-align: center;
+}
+.device-form {
+ /*margin: 20px;*/
+ background-color: #eee;
+ padding: 1px 20px 10px;
+ border-radius: 10px;
+}
+
+.device-listing {
+  margin: 10px;
+}
+
+p.device-listing {
+  font-size: 12px;
+}
+
+.light-switch {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(5, 5, 55, .1);
+  text-align: center;
+}

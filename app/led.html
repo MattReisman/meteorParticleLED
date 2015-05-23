@@ -1,0 +1,27 @@
+<template name="led">
+  <hr>
+  <div class="jumbotron control-box">
+    <div class="light-switch">
+     <p>The Spark LED is
+      {{#if lightState}}
+      on -
+      {{else}}
+      off -
+      {{/if}}
+      <span>
+        {{#if lightState}}
+        <button id="lightButton">Turn OFF</button>
+        {{else}}
+        <button id="lightButton">Turn ON</button>
+        {{/if}}
+      </span>
+    </p>
+  </div>
+  <div>
+    <p class ="device-listing">
+      Device Id:{{device}} -
+      <span>Access Token: {{token}}</span>
+    </p>
+  </div>
+</div>
+</template>
